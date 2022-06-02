@@ -256,7 +256,7 @@ spec:
         - --install-crds=false
         command:
         - /root/controller-manager
-        image: quay.io/kragniz/tor-controller-manager:master
+        image: ghcr.io/jay-yeo/tor-controller:arm64
         name: controller-manager
         resources:
           limits:
